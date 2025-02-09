@@ -47,14 +47,14 @@ public class BaseClass {
 		js.executeScript("arguments[0].scrollIntoView(true);", message);
 		message.getText();
 	}
-	/*
+	
 	@AfterClass
 	public void tearDown() {
 		if (driver!=null) {
 			driver.close();
 			driver.quit();
 		}
-	}*/
+	}
 	
 	
 }
